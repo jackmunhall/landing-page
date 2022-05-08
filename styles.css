@@ -1,0 +1,136 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header,
+.top,
+.footer {
+    background-color: #1f2937;
+}
+
+.bottom {
+    background-color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: -10px;
+    padding: 12px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+}
+
+.title {
+    font: 24px #F9FAF8;
+}
+
+.links {
+    display: flex;
+    padding-right: 200px;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    color: white;
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    margin-top: auto;
+}
+
+.top {
+    height: 260px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 200px;
+    display:flex;
+    justify-content: space-between;
+    justify-self: flex-start;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.image {
+    background-color: darkgray;
+    height: 200px;
+    width: 200px;
+    padding-right: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.middle {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.random {
+    font-size: 33px;
+    color: #1F2937;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.images {
+    display: flex;
+    gap: 30px
+}
+
+.images img {
+    height: 120px;
+    width: auto;
+}
+
+.bottom {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 16px;
+}
